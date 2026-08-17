@@ -1,0 +1,39 @@
+pwd
+
+ls
+
+ls -a
+
+ls -l
+
+mkdir
+
+touch
+
+mv
+
+cp
+
+history
+
+echo
+
+top
+
+ps
+
+ps -a
+
+free -h
+
+df -h
+
+uname -a
+
+hostname
+
+whoami
+
+sudo apt update
+
+sudo apt upgrade
