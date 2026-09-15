@@ -1,1 +1,19 @@
-
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rhombix-k8s
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rhombix-k8s
+  template:
+    metadata:
+      labels:
+        app: rhombix-k8s
+    spec:
+      containers:
+        - name: nginx
+          image: nginx
+          ports:
+            - containerPort: 80
